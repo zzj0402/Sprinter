@@ -19,7 +19,7 @@ def timer(minutes,BeepTimes):
 
     try:
         if minutes > 0:
-            print "Sleeping for " + str(minutes) + unit_word
+            print "Sprinting for " + str(minutes) + unit_word
             sleep(seconds)
         print "Time is up!"
         for i in range(BeepTimes):
@@ -44,7 +44,7 @@ def sprinter(SprintName):
 
 #main
 print "Cycle starts!"
-for i in range(3):
+for i in range(4):
     SprintName="Sprint "+str(i+1)
     sprinter(SprintName)
 print "Cycle ends!"
