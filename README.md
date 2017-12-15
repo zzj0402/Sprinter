@@ -1,2 +1,2 @@
 # Sprinter
-A timer for sprinters.
+A learning timer.
